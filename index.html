@@ -1,0 +1,105 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/stylesheet.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="start-screen">
+      <div>
+        <div>
+          <h1 class="start-screen-h1">Coding Quiz Challenge</h1>
+          <div class="s1">
+            <div class="s1a">
+              <button id="start" class="btn">Start</button>
+            </div>
+            <div class="s1a">
+              <button id="highscore" class="btn">View highscores</button>
+            </div>
+          </div>
+          <div id="leaderboard">
+            <div class="rankings" id="rank-1">1st Place</div>
+            <div class="rankings" id="rank-2">2nd Place:</div>
+            <div class="rankings" id="rank-3">3rd Place</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="game-screen">
+      <div class="top-bar">
+        <div class="highscores">Highscore: 0</div>
+        <div id="time">Time remaining : 60</div>
+        <div id="current-score">Current score</div>
+      </div>
+      <div>
+        <div class="question-div">
+          <div>
+            <h1 id="question">Question</h1>
+            <div class="answer-div">
+              <div class="btn-div"><button id="a" class="qbtn"></button></div>
+              <div class="btn-div"><button id="b" class="qbtn"></button></div>
+              <div class="btn-div"><button id="c" class="qbtn"></button></div>
+              <div class="btn-div"><button id="d" class="qbtn"></button></div>
+              <div class="btn-div" id="submit-div">
+                <button id="submit" class="qbtn">submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="game-over-screen">
+      <div>
+        <div>
+          <h1 class="gO-screen-h1">
+            Game Over!! You did not reach a high score!!
+          </h1>
+          <h3 id="gO">Your score was ##</h3>
+          <div class="g1">
+            <div class="s1a">
+              <button id="return-to-home" class="btn">Home</button>
+            </div>
+            <div class="s1a">
+              <button id="highscore2" class="btn">Submit Score</button>
+            </div>
+            <div id="hs1">
+              <label for="sumbit-score"
+                >Please input your first and last initials</label
+              >
+              <div>
+                <input type="text" name="" id="submit-form1" class="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="new-high-score">
+      <div>
+        <div>
+          <h1 class="hsH1">
+            Congratulations!! You have achieved a new highscore!!
+          </h1>
+          <div class="btn4">
+            <button id="return-home">Home</button>
+          </div>
+          <div class="btn4">
+            <button id="highscore3">Submit Score</button>
+          </div>
+          <div id="hs1">
+            <label for="sumbit-score"
+              >Please input your first and last initials</label
+            >
+            <div><input type="text" name="" id="submit-form2" class="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
